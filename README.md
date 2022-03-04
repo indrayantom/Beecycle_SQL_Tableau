@@ -1,4 +1,4 @@
-# :star:Beecycle Dataset : Data Analysis Using SQL Queries and Tableau:star:
+# :star:Beecycle Dataset : Data Analysis Hands-on Using SQL Queries and Tableau:star:
 
 This work contains Data Analysis Hands-on using PostgreSQL Queries and Tableau on Beecycle Customer's Dataset (Artificial Data) . As said in the name, Beecycle is a company that sold and produced bycycle.
 
