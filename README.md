@@ -1,2 +1,2 @@
 # Beecycle_SQL_Tableau
-Data Analysis Using SQL Queries and Tableau on Beecycle Dataset (Artificial Data)
+Data Analysis Hands-on Using SQL Queries and Tableau on Beecycle Dataset (Artificial Data)
