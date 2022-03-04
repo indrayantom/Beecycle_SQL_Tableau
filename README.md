@@ -29,11 +29,21 @@ from plotnine import *
 ```
 
 ## Result preview
-To determine the best number of clusters, the Total Within Sum of Square of each amount cluster iteration must be calculated, and the result is shown as follow:
-![numclusters](https://user-images.githubusercontent.com/92590596/156587456-817640ac-2de1-40fe-9373-d4d85ad35f10.jpg)
-The best number of cluster is usually found using elbow method, a method to find a point where  sum squares start decreasing slowly in a linear fashion (many literatures/sources say this, e.g https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/). Based on this characteristic, it is concluded that the optimal number of clusters for this dataset is 3.
+![download](https://user-images.githubusercontent.com/92590596/156812218-de368f02-3eb8-43f7-a2a5-0af087b23b8b.png)
 
-From the Petal.Length vs Petal.Width plot, one can see that the model is able to perfectly identify the setosa species among all observations. Unfortunately, when attempting to identify the versicolor and virginica species, the model begins to make 'mistakes'. This errors may comes from the fact that there are several Virginica and versicolor samples with quite similar characteristics to each other.
-![cluster3](https://user-images.githubusercontent.com/92590596/156587499-c6612980-160f-429d-b50f-c24d818ff77c.jpg)
+This dataset contains 5 data such as dim_geography, dim_customer, dim_product, fact_sales, and dim_territory with information as below :
+
+- dim_geography only has primary key which is geography_id
+- dim customer has one primary key and foreign key such as customer_id and geography_id from dim_geography table
+- dim_product only has primary key which is product_id
+- dim_territory only has primary key which is territory_id
+- fact sales has one primary key which is order_detail_id, and has 3 foreign keys such as product_id from dim_product, customer_id from dim_customer, and territory_id from dim_territory
+
+In order to learn how the Covid-19 pandemic impacted the business, the analysis that is brought into this Hands-on is about the Company's Sales During Pandemic. The trend in term of company's profit during the pandemic can be seen below. 
+
+![covid](https://user-images.githubusercontent.com/92590596/156812303-b714f0db-38ee-49b6-a987-8a06bbe8f2cf.jpg)
+
+The company began the operations in 2016 and had continued to grow year after year, with significant profit increases. However, when the Covid 19 outbreak began in November 2019, profit began to decline. By 2020, the company only gained 4 Billion Rupiahs profit in total, down nearly 50% or 4 Billion Rupiahs from the previous year. By July 2021 (middle of the year), total profit had dropped to 1.1 billion Rupiah, which is even less than the company's first year profit of 2.8 billion Rupiah. This result shows the Covid 19 Pandemic has a significant negative impact on the business.
+
 
 
